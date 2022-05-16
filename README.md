@@ -27,11 +27,11 @@
 ![Get JUnit platform console standalone](./README_IMG/get_junit_platform_console_standalone_0.jpg)
 ![Get JUnit platform console standalone](./README_IMG/get_junit_platform_console_standalone_1.jpg)
 
-2. Put the 'junit-platform-console-standalone-1.9.*.jar' in the project main directory.
+2. Put the 'junit-platform-console-standalone-1.9.*.jar' in the main project directory.
 
 ## Usage Linux
 0. Open a Terminal.
-1. Go to the project main directory.
+1. Go to the main project directory.
 2. Run the following command :
 ```
 	$ java -jar junit-platform-console-standalone-1.9.0-M1.jar -cp ./app/build/classes/java/test/ -cp ./app/build/classes/java/main/ --select-package='juliandbs.gradle_junit_example' --details=verbose
